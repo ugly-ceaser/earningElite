@@ -288,7 +288,7 @@ $userAccountDetails = UserAccountDetails($user_id ,"user_id");
                           
                           <div class="form-group">
                             <label for="exampleInputPassword1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputPassword1" >
+                            <input type="email" class="form-control" id="email" required >
                           </div>
                        
                           
@@ -489,6 +489,13 @@ $userAccountDetails = UserAccountDetails($user_id ,"user_id");
                     }
                 });
             });
+
+            $("#addVendor").submit((e)=>{
+              e.preventDefault();
+              const email = $('#email').val().trim();
+
+          
+            })
         });
     </script>
     <!-- End custom js for this page -->
