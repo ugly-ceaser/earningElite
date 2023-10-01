@@ -14,6 +14,8 @@ $user_id = $_SESSION['admin'];
 
 $userDetalis = getUserDetails($user_id  ,"user_id") ;
 
+$userAccountDetails = UserAccountDetails($user_id ,"user_id");
+
 
 ?>
 
@@ -280,9 +282,20 @@ $userDetalis = getUserDetails($user_id  ,"user_id") ;
               <div class="col-md-5 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Weekly Earning</h4>
-                    <canvas id="traffic-chart"></canvas>
-                    <div id="traffic-chart-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+                    <h4 class="card-title">Add Vendor</h4>
+
+                    <form class="forms-sample" id="addVendor">
+                          
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1" >
+                          </div>
+                       
+                          
+                          <button type="submit" class="btn btn-gradient-primary me-2">Make Vendor</button>
+                          
+                        </form>
+                   
                   </div>
                 </div>
               </div>
