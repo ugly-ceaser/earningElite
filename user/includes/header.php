@@ -246,7 +246,7 @@ $userAccountDetails = UserAccountDetails($user_id ,"user_id");
               <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">
-                    <span></span>Referal link : https://earningelite.com/signup.php?ref=<?=$userDetalis['referal_code'] ?> <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                    <span></span>Referal link : https://earninglite.com/signup.php?ref=<?=$userDetalis['referal_code'] ?> <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
                   </li>
                 </ul>
               </nav>

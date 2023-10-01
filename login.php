@@ -32,7 +32,7 @@ include('./includes/header.php');
                                 <span class="icon_mail"></span>
                             </div>
                             <div class="input__item">
-                                <input type="text" name="password"  id="password"placeholder="Password">
+                                <input type="password" name="password"  id="password"placeholder="Password">
                                 <span class="icon_lock"></span>
                             </div>
                             <button type="submit" class="site-btn">Login Now</button>
@@ -43,7 +43,7 @@ include('./includes/header.php');
                 <div class="col-lg-6">
                     <div class="login__register">
                         <h3>Dont’t Have An Account?</h3>
-                        <a href="#" class="primary-btn">Register Now</a>
+                        <a href="./signup.php" class="primary-btn">Register Now</a>
                     </div>
                 </div>
             </div>

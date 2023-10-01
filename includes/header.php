@@ -65,7 +65,7 @@ session_start();
                                             class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="#">COD</a></li>
-                                        <li><a href="#">PUBG</a></li>
+                                        
                                         <li><a href="#">FREE FIRE</a></li>
                                         <!-- <li><a href="./blog-details.php">Blog Details</a></li>
                                         <li><a href="./signup.php">Sign Up</a></li>
@@ -83,7 +83,7 @@ session_start();
                 <div class="col-lg-2">
                     <div class="header__right">
                         <a href="#" class="search-switch"><span class="icon_search"></span></a>
-                        <a href="./login.php"><span class="icon_profile"></span></a>
+                        <a href="./login.php"><span class="icon_profile"></span>Sign In</a>
                     </div>
                 </div>
             </div>

@@ -11,6 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Call the loginUser function
     $response = loginUser($email, $pass);
+    
+
+
 
     // Check the response from loginUser
     if ($response['success']) {

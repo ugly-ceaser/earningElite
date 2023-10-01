@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             echo json_encode(array('success' => false, 'message' => 'Account is not credited'));
         } else {
             // Credit the user's account with an initial amount
-            $amount = 4000;
+            $amount = 3000;
             $message = CreditUser($user_id, $amount);
 
             deactivateCoupon($coupon_code);
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     $referrer_id = $referrer['user_id'];
 
                     // Credit the referee with $1000
-                    $amount = 1000;
+                    $amount = 300;
                     $feedback = updateEarnings($referrer_id, $amount, "referal_earning");
 
                     // Check if the referee has a referrer (second-level referral)
@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                             $second_referrer_id = $second_referrer['user_id'];
 
                             // Credit the second-level referee with $500
-                            $amount = 500;
+                            $amount = 100;
                             $feedback = updateEarnings($second_referrer_id, $amount, "referal_earning");
                         }
                     }
