@@ -1,6 +1,6 @@
 <?php
 
 $host = "localhost";
-$dbname = "earningelitedb";
-$username = "root";
-$password = "";
+$dbname = "ndpwraxuew_earningeitedb";
+$username = "ndpwraxuew_root";
+$password = "marti08139110216";

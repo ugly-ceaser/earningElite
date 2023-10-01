@@ -2,7 +2,7 @@
 function connectToDatabase() {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
     try {
         $dsn = "mysql:host=$host;dbname=$dbname";
@@ -37,7 +37,7 @@ function isReferalCodeExists($code) {
     // Connect to your database and perform a query to check if the code exists
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -60,7 +60,7 @@ function createUser($userData)
 {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     $full_name = $userData->full_name;
@@ -98,7 +98,7 @@ function CreditUser($user_id,$amount) {
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
 
@@ -129,7 +129,7 @@ function updateEarnings($user_id, $amount, $column) {
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -170,7 +170,7 @@ function loginUser($email, $pass)
         // Perform database validation
         $host = "localhost";
         $dbname = "ndpwraxuew_earningeitedb";
-        $username = "root";
+        $username = "ndpwraxuew_root";
         $password = "marti08139110216";
 
 
@@ -230,7 +230,7 @@ function loginUser($email, $pass)
 function updateUserRecord($info,$column) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -255,7 +255,7 @@ function getUserDetails($info ,$column) {
 
         $host = "localhost";
         $dbname = "ndpwraxuew_earningeitedb";
-        $username = "root";
+        $username = "ndpwraxuew_root";
         $password = "marti08139110216";
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname", "$username", "$password");
@@ -282,7 +282,7 @@ function UserAccountDetails($info ,$column) {
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", "$username", "$password");
@@ -306,7 +306,7 @@ try {
 function checkcouponStatus($coupon_code) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     $status = true; // Assuming true represents a valid coupon status
@@ -337,7 +337,7 @@ function checkcouponStatus($coupon_code) {
 function user_taskStatus($user_id,$post_id) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -360,7 +360,7 @@ function checkIfUserIsVendor($user_id){
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -385,7 +385,7 @@ function fetch_all_posts(){
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -413,7 +413,7 @@ function fetch_all_valid_coupon()
 {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -437,7 +437,7 @@ function request_withdraw($user_id,$amount){
 
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname", "$username", "$password");
@@ -466,7 +466,7 @@ function generate_and_insert_coupons($count = 20)
 {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -513,7 +513,7 @@ function coupon_code_exists($coupon_code)
 {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -535,7 +535,7 @@ function deactivateCoupon($couponCode)
 {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -611,7 +611,7 @@ function deactivateCoupon($couponCode)
 function insertPatientRecord($patientRecord) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -647,7 +647,7 @@ function insertPatientRecord($patientRecord) {
 function updateUserLogDetails($userData) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     $update = false;
@@ -700,7 +700,7 @@ function updateUserLogDetails($userData) {
 function bookAppointment($appointmentData) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     $dateCreated = date("Y-m-d H:i:s");
@@ -744,7 +744,7 @@ function bookAppointment($appointmentData) {
 function getInsuranceProviders() {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -766,7 +766,7 @@ function getInsuranceProviders() {
 function getUserBill($userid) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -788,7 +788,7 @@ function getUserBill($userid) {
 function fetchPrescriptionsByPatientId($userId) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -813,7 +813,7 @@ function fetchAppointmentsByPatientIdAndStatus($userId, $status) {
     // Establish a database connection (you can use the connectToDatabase function from the previous code)
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -840,7 +840,7 @@ function fetchAppointmentsByPatientIdAndStatus($userId, $status) {
 function fetchLabResults($userId) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
@@ -865,7 +865,7 @@ function fetchLabResults($userId) {
 function medicalHistory($userId) {
     $host = "localhost";
     $dbname = "ndpwraxuew_earningeitedb";
-    $username = "root";
+    $username = "ndpwraxuew_root";
     $password = "marti08139110216";
 
     try {
